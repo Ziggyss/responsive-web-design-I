@@ -167,7 +167,8 @@ h2 {
 .main {
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
+    height: auto;
 }
 
 @media (max-width: 800px){
@@ -180,6 +181,13 @@ h2 {
         margin: 0 auto;
     }
 }
+@media (max-width: 500px){
+    .main {
+        height: auto;
+    }
+}
+
+
 
 .top {
 	height: 200px;
@@ -187,6 +195,23 @@ h2 {
 	justify-content: space-between;
 	padding-top: 50px;
 	padding-bottom: 50px;	
+}
+
+@media (max-width: 500px){
+  
+    .top {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .mid {
+        height: auto;
+    }
+
+    .bottom {
+        flex-direction: column;
+        height: auto;
+    }
 }
 
 .mid {
