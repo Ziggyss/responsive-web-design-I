@@ -78,6 +78,7 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+
 .topThird {
 	display: flex;
 	flex-direction: column;
@@ -151,6 +152,11 @@ h1, h2, h3, h4, h5 {
     }
 }
 
+@media (max-width: 500px){
+    .jumbo {
+        height: 400px;
+    }
+}
 	
 button {
 	height: 20px;
@@ -255,7 +261,7 @@ address {
 
 .top-serv {
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
 
 .header-serv {
@@ -273,14 +279,25 @@ address {
 
 }
 
+@media (max-width: 800px){
+    .main-serv {
+        width: 800px;
+    }
+}
+
 .copyright {
 	text-align: center;
 }
 
 .services {
-	width: 900px;
+    width: 900px;
+    margin-top: 20px;
 
 }
+@media (max-width: 800px){
+    .services {
+        width: 800px;
+    }
 
 .box {
 	display: flex;
@@ -314,6 +331,10 @@ address {
 	padding-top: 50px;
 
 }
+@media (max-width: 800px){
+    .bottom-serv {
+        width: 800px;
+    }
 
 .text {
 	width: 450px;
