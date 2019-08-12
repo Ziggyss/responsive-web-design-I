@@ -210,7 +210,6 @@ h2 {
 
     .bottom {
         flex-direction: column;
-        height: auto;
     }
 }
 
@@ -220,7 +219,7 @@ h2 {
 }
 
 .bottom {
-	height: 170px;
+	height: auto;
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
