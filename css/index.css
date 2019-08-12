@@ -274,14 +274,14 @@ address {
 
 @media(max-width: 800px){
     .main-serv {
-        width: 800px;
+        width: 700px;
         height: auto;
     }
     
 }
 @media (max-width: 500px){
     .main-serv {
-        width: 500px;
+        width: 450px;
         flex-direction: column;
     }
     .services-header-img {
@@ -308,7 +308,7 @@ address {
 } 
 @media(max-width: 500px){
     .services {
-        width: 500px;
+        width: 450px;
     }
 }
 
@@ -347,12 +347,12 @@ address {
 }
 @media (max-width:800px){
     .bottom-serv {
-        width: 800px;
+        width: 700px;
     }
 }
 @media (max-width:500px){
     .bottom-serv {
-        width: 500px;
+        width: 450px;
     }
     .image {
         display: none;
