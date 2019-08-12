@@ -62,7 +62,8 @@ h1, h2, h3, h4, h5 {
 .container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+    align-items: center;
+    width: 100%;
 	
 	
 }
@@ -70,7 +71,8 @@ h1, h2, h3, h4, h5 {
 .topThird {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+    align-items: center;
+    width: 80%;
 	
 	
 }
@@ -78,7 +80,8 @@ h1, h2, h3, h4, h5 {
 .header {
 	display: flex;
 	align-items: baseline;
-	justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
 }
 
 @media (max-width: 800px){
@@ -101,7 +104,7 @@ h1, h2, h3, h4, h5 {
 	font-size: 14px;
 	display: flex;
 	justify-content: space-around;
-	width: 700px;
+	width: 70%;
 	padding-bottom: 50px;
 
 	
@@ -135,7 +138,7 @@ h1, h2, h3, h4, h5 {
 
 .jumbo {
 	height: 500px;
-	width: 900px;
+	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
@@ -158,7 +161,8 @@ h2 {
 .main {
 	display: flex;
 	flex-direction: column;
-	border-bottom: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 80%;
 
 }
 
@@ -174,7 +178,8 @@ h2 {
 }
 .mid {
 	height: 260px;
-	padding-bottom: 60px;
+    padding-bottom: 60px;
+    width: 80%;
 
 	
 }
@@ -206,7 +211,7 @@ h2 {
 address {
 	display: flex;
 	flex-direction: column;
-	width: 880px;
+	width: 80%;
 	padding-top: 50px;
 }
 
@@ -223,7 +228,6 @@ address {
 .main-serv {
 	display:flex;
 	width: 900px;
-
 	justify-content: space-evenly;
 	height: 1000px;
 	padding-top: 50px;
@@ -236,7 +240,7 @@ address {
 }
 
 .services {
-	width: 900px;
+	width: 80%;
 
 }
 
