@@ -210,6 +210,10 @@ h2 {
 
     .bottom {
         flex-direction: column;
+        padding-bottom: 20px;
+    }
+    .b1, .b2, .b3 {
+        padding-bottom: 20px;
     }
 }
 
