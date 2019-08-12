@@ -58,21 +58,31 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-
+/* Copy and paste your work from yesterday here and start to refactor into flexbox */
 .container {
 	display: flex;
 	flex-direction: column;
-    align-items: center;
-    width: 80%;
+	align-items: center;
 	
 	
 }
+@media (max-width: 800px){
+    .header {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .logoSection {
+        display: flex;
+        justify-content: center;
+        width: 800px;
+    }
+}
+
 
 .topThird {
 	display: flex;
 	flex-direction: column;
-    align-items: center;
-    width: 80%;
+	align-items: center;
 	
 	
 }
@@ -80,47 +90,50 @@ h1, h2, h3, h4, h5 {
 .header {
 	display: flex;
 	align-items: baseline;
-    justify-content: space-between;
-    width: 100%;
-}
-
-@media (max-width: 800px){
-    .header {
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-
-    .logoSection {
-        padding-top: 30px;
-        padding-bottom: 30px;
-    }
-
+	justify-content: space-between;
 }
 
 
 .nav {
-	
 	color: gray;
 	font-size: 14px;
 	display: flex;
 	justify-content: space-around;
-	width: 70%;
-	padding-bottom: 50px;
+	width: 700px;
+	padding-bottom: 50px;	
 
 }
+
+.logoSection {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 
 
 .leftJumbo {
 	
 	height: 400px;
 	text-align: center;
-	font-size: 70px;	
+	font-size: 70px;
+	
+	
 	
 }
 
-.rightJumbo {	
+.rightJumbo {
+	
 	height: 400px;
 	
+}
+
+.jumbo {
+	height: 500px;
+	width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border-bottom: 1px solid black;
 }
 
 @media (max-width:800px){
@@ -129,14 +142,6 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-.jumbo {
-	height: 500px;
-	width: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	border-bottom: 1px solid black;
-}
 	
 button {
 	height: 20px;
@@ -154,8 +159,7 @@ h2 {
 .main {
 	display: flex;
 	flex-direction: column;
-    border-bottom: 1px solid black;
-    width: 80%;
+	border-bottom: 1px solid black;
 
 }
 
@@ -171,7 +175,8 @@ h2 {
 }
 .mid {
 	height: 260px;
-    padding-bottom: 60px;
+	padding-bottom: 60px;
+
 	
 }
 .bottom {
@@ -181,7 +186,6 @@ h2 {
 	justify-content: space-between;
 
 }
-
 
 .topLeft {
 	height: 170px;
@@ -199,20 +203,12 @@ h2 {
 	width: 280px;
 
 }
-.mid {
-    width: 80%;
-}
-
-.foot {
-    width: 80%;
-}
 
 address {
 	display: flex;
 	flex-direction: column;
-	width: 100%;
-    padding-top: 50px;
-    
+	width: 880px;
+	padding-top: 50px;
 }
 
 .top-serv {
@@ -228,6 +224,7 @@ address {
 .main-serv {
 	display:flex;
 	width: 900px;
+
 	justify-content: space-evenly;
 	height: 1000px;
 	padding-top: 50px;
@@ -240,7 +237,7 @@ address {
 }
 
 .services {
-	width: 80%;
+	width: 900px;
 
 }
 
@@ -284,7 +281,4 @@ address {
 	flex-direction: column;
 	align-items: flex-start;
 }
-
-
-
 
