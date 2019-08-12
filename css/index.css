@@ -62,10 +62,9 @@ h1, h2, h3, h4, h5 {
 .container {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	
-	
+	align-items: center;	
 }
+
 @media (max-width: 800px){
     .header {
         flex-direction: column-reverse;
@@ -79,13 +78,10 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-
 .topThird {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	
-	
+	align-items: center;	
 }
 
 .header {
@@ -94,7 +90,6 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-between;
 }
 
-
 .nav {
 	color: gray;
 	font-size: 14px;
@@ -102,6 +97,24 @@ h1, h2, h3, h4, h5 {
 	justify-content: space-around;
 	width: 700px;
 	padding-bottom: 50px;	
+
+}
+@media (max-width: 500px){
+    .nav {
+        flex-direction: column; 
+        align-items: center;  
+    }
+    .nav a {
+        height: 30px;
+        font-size: 16px;
+        border-bottom: 1px solid black;
+        width: 500px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    #services {
+        border-top: 1px solid black;
+    }
 
 }
 
@@ -116,16 +129,11 @@ h1, h2, h3, h4, h5 {
 	
 	height: 400px;
 	text-align: center;
-	font-size: 70px;
-	
-	
-	
+	font-size: 70px;	
 }
 
-.rightJumbo {
-	
-	height: 400px;
-	
+.rightJumbo {	
+	height: 400px;	
 }
 
 .jumbo {
@@ -147,8 +155,7 @@ h1, h2, h3, h4, h5 {
 button {
 	height: 20px;
 	width: 180px;
-	font-size: 14px;
-	
+	font-size: 14px;	
 }
 
 h2 {
@@ -161,7 +168,6 @@ h2 {
 	display: flex;
 	flex-direction: column;
 	border-bottom: 1px solid black;
-
 }
 
 @media (max-width: 800px){
@@ -180,23 +186,19 @@ h2 {
 	display: flex;
 	justify-content: space-between;
 	padding-top: 50px;
-	padding-bottom: 50px;
-	
-
-	
+	padding-bottom: 50px;	
 }
+
 .mid {
 	height: 260px;
-	padding-bottom: 60px;
-
-	
+	padding-bottom: 60px;	
 }
+
 .bottom {
 	height: 170px;
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
-
 }
 
 .topLeft {
@@ -226,7 +228,6 @@ address {
 .top-serv {
 	display: flex;
 	flex-direction: column;
-
 }
 
 .header-serv {
