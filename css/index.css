@@ -279,6 +279,16 @@ address {
     }
     
 }
+@media (max-width: 500px){
+    .main-serv {
+        width: 500px;
+        flex-direction: column;
+    }
+    .services-header-img {
+        display: none;
+    }
+
+}
 
 .copyright {
 	text-align: center;
@@ -296,6 +306,12 @@ address {
     }
 
 } 
+@media(max-width: 500px){
+    .services {
+        width: 500px;
+    }
+}
+
 
 .box {
 	display: flex;
