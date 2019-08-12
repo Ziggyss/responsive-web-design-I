@@ -199,11 +199,18 @@ h2 {
 	width: 280px;
 
 }
+.mid {
+    width: 80%;
+}
+
+.foot {
+    width: 80%;
+}
 
 address {
 	display: flex;
 	flex-direction: column;
-	width: 800px;
+	width: 100%;
     padding-top: 50px;
     
 }
