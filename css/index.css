@@ -78,7 +78,6 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-
 .topThird {
 	display: flex;
 	flex-direction: column;
@@ -152,11 +151,6 @@ h1, h2, h3, h4, h5 {
     }
 }
 
-@media (max-width: 500px){
-    .jumbo {
-        height: 400px;
-    }
-}
 	
 button {
 	height: 20px;
@@ -219,7 +213,7 @@ h2 {
         padding-bottom: 20px;
     }
     .b1, .b2, .b3 {
-        padding-bottom: 20px;
+        padding bottom: 20px;
     }
 }
 
@@ -261,7 +255,7 @@ address {
 
 .top-serv {
 	display: flex;
-    flex-direction: column;
+	flex-direction: column;
 }
 
 .header-serv {
@@ -271,7 +265,6 @@ address {
 .main-serv {
 	display:flex;
 	width: 900px;
-
 	justify-content: space-evenly;
 	height: 1000px;
 	padding-top: 50px;
@@ -279,10 +272,12 @@ address {
 
 }
 
-@media (max-width: 800px){
+@media(max-width: 800px){
     .main-serv {
         width: 800px;
+        height: auto;
     }
+    
 }
 
 .copyright {
@@ -294,10 +289,13 @@ address {
     margin-top: 20px;
 
 }
-@media (max-width: 800px){
+
+@media(max-width: 800px){
     .services {
-        width: 800px;
+        width: 800px
     }
+
+} 
 
 .box {
 	display: flex;
@@ -331,10 +329,19 @@ address {
 	padding-top: 50px;
 
 }
-@media (max-width: 800px){
+@media (max-width:800px){
     .bottom-serv {
         width: 800px;
     }
+}
+@media (max-width:500px){
+    .bottom-serv {
+        width: 500px;
+    }
+    .image {
+        display: none;
+    }
+}
 
 .text {
 	width: 450px;
